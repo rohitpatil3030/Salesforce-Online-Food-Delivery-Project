@@ -1,8 +1,7 @@
-Effective data cleanup is essential to maintain system performance and ensure a clutter-free database. In my project, I implemented scheduled Apex jobs to:
-Automatically delete inactive leads that haven’t been modified in the last 365 days
-Remove unused menu items that haven’t been ordered in the past 6 months
-Clear out orders stuck in a ‘Pending’ status for an extended period
-
+//Effective data cleanup is essential to maintain system performance and ensure a clutter-free database. In my project, I implemented scheduled Apex jobs to:
+//Automatically delete inactive leads that haven’t been modified in the last 365 days
+//Remove unused menu items that haven’t been ordered in the past 6 months
+//Clear out orders stuck in a ‘Pending’ status for an extended period
 
 global class DataCleanupScheduler implements Schedulable {
     
