@@ -41,8 +41,8 @@ global class DataCleanupScheduler implements Schedulable {
     }
 }
 
-How to Schedule This:
-You can schedule it using the Developer Console or Anonymous Apex:
+//How to Schedule This:
+//You can schedule it using the Developer Console or Anonymous Apex:
 DataCleanupScheduler cleanup = new DataCleanupScheduler();
 String cronExp = '0 0 0 * * ?'; // Every day at midnight
 System.schedule('Daily Data Cleanup Job', cronExp, cleanup);
